@@ -5,6 +5,9 @@ name: Sinieva
 # description will be included in the image's metadata
 description: Sinievä - Bluefin dx nvidia + personal tweaks
 
+alt-tags:
+  - stable
+
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/bluefin-dx-nvidia-open
 image-version: stable # latest is also supported if you want new updates ASAP
